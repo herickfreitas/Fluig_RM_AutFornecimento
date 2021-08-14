@@ -120,9 +120,9 @@ function selecionaAutorizador(){
 	  	//		DEFININDO FAIXA DE APROVACAO 	   //
 	  	/////////////////////////////////////////////
 		
-	  	if (parseFloat(VALORLIQUIDO) > parseFloat('115070.6000'))
+	  	if (parseFloat(VALORLIQUIDO) > parseFloat('152042.0000')) //if (parseFloat(VALORLIQUIDO) > parseFloat('115070.6000'))
 	     	 	var faixa = '2';
-	  	else  	//if (parseFloat(VALORLIQUIDO) <= parseFloat('115070.6000'))
+	  	else  	
 	     	 	var faixa = '1';
 	  	
 	  	// Atribuindo campo no formulário

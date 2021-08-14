@@ -29,7 +29,7 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>Solicitações de Autorização de Despesas</processId>
-      <version>15</version>
+      <version>16</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>0</formId>
@@ -691,7 +691,7 @@
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
         <expressionOrder>1</expressionOrder>
-        <version>15</version>
+        <version>16</version>
         <sequence>66</sequence>
       </conditionProcessStatePK>
       <condition>false</condition>
@@ -705,7 +705,7 @@
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
         <expressionOrder>2</expressionOrder>
-        <version>15</version>
+        <version>16</version>
         <sequence>66</sequence>
       </conditionProcessStatePK>
       <condition>false</condition>
@@ -719,7 +719,7 @@
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
         <expressionOrder>3</expressionOrder>
-        <version>15</version>
+        <version>16</version>
         <sequence>66</sequence>
       </conditionProcessStatePK>
       <condition>false</condition>
@@ -1290,9 +1290,9 @@ function selecionaAutorizador(){&#xd;
 	  	//		DEFININDO FAIXA DE APROVACAO 	   //&#xd;
 	  	/////////////////////////////////////////////&#xd;
 		&#xd;
-	  	if (parseFloat(VALORLIQUIDO) &gt; parseFloat(&apos;115070.6000&apos;))&#xd;
+	  	if (parseFloat(VALORLIQUIDO) &gt; parseFloat(&apos;152042.0000&apos;)) //if (parseFloat(VALORLIQUIDO) &gt; parseFloat(&apos;115070.6000&apos;))&#xd;
 	     	 	var faixa = &apos;2&apos;;&#xd;
-	  	else  	//if (parseFloat(VALORLIQUIDO) &lt;= parseFloat(&apos;115070.6000&apos;))&#xd;
+	  	else  	&#xd;
 	     	 	var faixa = &apos;1&apos;;&#xd;
 	  	&#xd;
 	  	// Atribuindo campo no formulário&#xd;
@@ -1481,7 +1481,7 @@ function atualizaEtapaWorkflow(){&#xd;
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
         <propertyId>AutomaticTasks</propertyId>
-        <version>15</version>
+        <version>16</version>
       </advancedProcessPropertiesPK>
       <propertieValue>4</propertieValue>
     </AdvancedProcessProperties>
@@ -1781,7 +1781,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>37</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1792,7 +1792,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>47</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1803,7 +1803,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>49</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1814,7 +1814,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>50</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1825,7 +1825,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>50</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -1836,7 +1836,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>59</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1847,7 +1847,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>59</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -1858,7 +1858,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>59</linkSequence>
         <bendSequence>3</bendSequence>
       </processLinkBendPK>
@@ -1869,7 +1869,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>64</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1880,7 +1880,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>65</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1891,7 +1891,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>67</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1902,7 +1902,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>73</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1913,7 +1913,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>78</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1924,7 +1924,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>78</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -1935,7 +1935,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>78</linkSequence>
         <bendSequence>3</bendSequence>
       </processLinkBendPK>
@@ -1946,7 +1946,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>98</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1957,7 +1957,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>100</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1968,7 +1968,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <linkSequence>104</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -1982,7 +1982,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <extendedPropertyFieldPK>
         <companyId>1</companyId>
         <processId>SolAutFornecimento</processId>
-        <version>15</version>
+        <version>16</version>
         <stateSequence>0</stateSequence>
         <propertyName>AutomaticTasks</propertyName>
       </extendedPropertyFieldPK>
@@ -2000,7 +2000,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>SolAutFornecimento</processId>
-      <processVersion>15</processVersion>
+      <processVersion>16</processVersion>
       <stateSequence>45</stateSequence>
       <appKey>approval</appKey>
       <appField>approve</appField>
@@ -2010,7 +2010,7 @@ function atualizaEtapaWorkflow(){&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>SolAutFornecimento</processId>
-      <processVersion>15</processVersion>
+      <processVersion>16</processVersion>
       <stateSequence>45</stateSequence>
       <appKey>approval</appKey>
       <appField>reject</appField>
