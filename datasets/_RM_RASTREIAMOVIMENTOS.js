@@ -14,7 +14,7 @@ function createDataset(fields, constraints, sortFields) {
         }
     }
  
-    var myQuery = "SELECT IDMOV FROM [dbo].[RASTREIAMOVIMENTOS_CNC] ("+processo+")";
+    var myQuery = "SELECT distinct IDMOV FROM [dbo].[RASTREIAMOVIMENTOS_CNC] ("+processo+")";
     //var myQuery = "SELECT DISTINCT IDMOV FROM (SELECT IDMOV FROM [dbo].[RASTREIAMOVIMENTOS] (1,"+processo+")  )T1";
 	//var myQuery = "SELECT IDMOV FROM [dbo].[RASTREIAMOVIMENTOS] (1,"+processo+")";        
     log.info("QUERY: " + myQuery);
